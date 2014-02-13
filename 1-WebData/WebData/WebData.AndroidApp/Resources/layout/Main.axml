@@ -7,11 +7,11 @@
         android:id="@+id/webview"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="@string/openwebview" />
+        android:text="Open data in webview" />
     <Button
         android:id="@+id/json"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:text="@string/showjson" />
+        android:text="Open data in toast" />
 </LinearLayout>
