@@ -9,6 +9,7 @@ namespace WebData.AndroidApp
 		private HttpClient _client;
 		public MyWebService()
 		{
+			//Don't forget to call dispose after you're completely done with this class.
 			_client = new HttpClient ();
 		}
 
